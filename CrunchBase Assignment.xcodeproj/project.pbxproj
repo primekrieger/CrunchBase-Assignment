@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C3CD09AD796ED7DBB9D7FADB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5533D57EDEF3760C88B44E /* Pods.framework */; };
+		FC9F3B751BE65DCC003F9CB1 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9F3B741BE65DCC003F9CB1 /* ListTableViewController.swift */; };
+		FC9F3B7A1BE65E35003F9CB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9F3B791BE65E35003F9CB1 /* HomeViewController.swift */; };
 		FCA68AA21BE63733003089FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA68AA11BE63733003089FC /* AppDelegate.swift */; };
 		FCA68AA41BE63733003089FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA68AA31BE63733003089FC /* ViewController.swift */; };
 		FCA68AA71BE63733003089FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA68AA51BE63733003089FC /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		156C3906ED97725D35902543 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		84D175A124D0ED4A5F4D7190 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AB5533D57EDEF3760C88B44E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9F3B741BE65DCC003F9CB1 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		FC9F3B791BE65E35003F9CB1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FCA68A9E1BE63733003089FC /* CrunchBase Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrunchBase Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA68AA11BE63733003089FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCA68AA31BE63733003089FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				FCA68AA81BE63733003089FC /* Assets.xcassets */,
 				FCA68AAA1BE63733003089FC /* LaunchScreen.storyboard */,
 				FCA68AAD1BE63733003089FC /* Info.plist */,
+				FC9F3B741BE65DCC003F9CB1 /* ListTableViewController.swift */,
+				FC9F3B791BE65E35003F9CB1 /* HomeViewController.swift */,
 			);
 			path = "CrunchBase Assignment";
 			sourceTree = "<group>";
@@ -334,8 +340,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9F3B751BE65DCC003F9CB1 /* ListTableViewController.swift in Sources */,
 				FCA68AA41BE63733003089FC /* ViewController.swift in Sources */,
 				FCA68AA21BE63733003089FC /* AppDelegate.swift in Sources */,
+				FC9F3B7A1BE65E35003F9CB1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
